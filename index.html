@@ -1,568 +1,1149 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>MyFolio</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta content="Portfolio HTML Template" name="keywords" />
-    <meta content="Portfolio HTML Template" name="description" />
+<head>
+	<title>My folio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <!-- Favicon -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Solway:400,700&display=swap"
-      rel="stylesheet"
-    />
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+	
+	
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">Kornel<span>.</span></a>
+			<button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
 
-    <!-- CSS Libraries -->
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
-    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav nav ml-auto">
+					<li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
+					<li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+					<li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
+					<li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
+					<li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+					<li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<section id="home-section" class="hero">
+		<div class="home-slider owl-carousel">
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url(images/bg_1.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Hello! I am Kornel Dudek</span>
+								<h1 class="mb-4 mt-3">Creative <span>Full </span> Stack &amp; Developer</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet" />
-  </head>
+			<div class="slider-item">
+				<div class="overlay"></div>
+				<div class="container-fluid px-md-0">
+					<div class="row d-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+						<div class="one-third order-md-last img" style="background-image:url(images/bg_2.jpg);">
+							<div class="overlay"></div>
+							<div class="overlay-1"></div>
+						</div>
+						<div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+							<div class="text">
+								<span class="subheading">Font-end &amp; Back-end</span>
+								<h1 class="mb-4 mt-3">Hi, I am <span>Kornel Dudek</span> This is my favorite work.</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  <body>
-    <!-- Header Start -->
-    <div class="top-header" id="top-header">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-md-12">
-            <img src="img/profile-pic.jpg" alt="Anamul Hasan" />
-          </div>
+	<section class="ftco-counter img bg-light" id="section-counter">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-suitcase"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="5">5</strong>
+							<span>Project Complete</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-loyalty"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="5">5</strong>
+							<span>Happy Clients</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-coffee"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="514">514</strong>
+							<span>Cups of coffee</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 justify-content-center counter-wrap ftco-animate">
+					<div class="block-18 d-flex">
+						<div class="icon d-flex justify-content-center align-items-center">
+							<span class="flaticon-calendar"></span>
+						</div>
+						<div class="text">
+							<strong class="number" data-number="5">5</strong>
+							<span>Years experienced</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-          <div class="col-md-12">
-            <h1>I'm Kornel Dudeck</h1>
-          </div>
+	<section class="ftco-about ftco-section ftco-no-pt ftco-no-pb" id="about-section">
+		<div class="container">
+			<div class="row d-flex no-gutters">
+				<div class="col-md-6 col-lg-5 d-flex">
+					<div class="img-about img d-flex align-items-stretch">
+						<div class="overlay"></div>
+						<div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/about-1.jpg);">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-7 pl-md-4 pl-lg-5 py-5">
+					<div class="py-md-5">
+						<div class="row justify-content-start pb-3">
+							<div class="col-md-12 heading-section ftco-animate">
+								<span class="subheading">My Intro</span>
+								<h2 class="mb-4" style="font-size: 34px; text-transform: capitalize;">About Me</h2>
+								<p>A talented full stack developer with 5 years of expertise experience in web development. I have a strong command over both front-end and back-end technologies, allowing me to build complete and scalable applications.</p>
 
-          <div class="col-md-12">
-            <p>Full Stack Web Developer, Creative Software Developer</p>
-            <h2></h2>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Header End -->
+								<ul class="about-info mt-4 px-md-0 px-2">
+									<li class="d-flex"><span>Name:</span> <span>Kornel Dudek</span></li>
+									<li class="d-flex"><span>Date of birth:</span> <span>September 03, 1998</span></li>
+									<li class="d-flex"><span>Address:</span> <span>Jaworska 11/13 Budynek B, 53-605 Wrocław, Poland</span></li>
+									<li class="d-flex"><span>Email:</span> <span>solomon21century@outlook.com</span></li>
+									<li class="d-flex"><span>Phone: </span> <span>+48-2234-5678-9-0</span></li>
+								</ul>
+							</div>
+							<div class="col-md-12">
+								<div class="my-interest d-lg-flex w-100">
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-listening"></span>
+										</div>
+										<div class="text">Music</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-suitcases"></span>
+										</div>
+										<div class="text">Travel</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-video-player"></span>
+										</div>
+										<div class="text">Movie</div>
+									</div>
+									<div class="interest-wrap d-flex align-items-center">
+										<div class="icon d-flex align-items-center justify-content-center">
+											<span class="flaticon-football"></span>
+										</div>
+										<div class="text">Sports</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="ftco-section bg-light" id="skills-section">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Skills</span>
+					<h2 class="mb-4">My Skills</h2>
+					<p>I have deep understanding of these technologies</p>
+				</div>
+			</div>
+			<div class="row progress-circle mb-5">
 
-    <!-- Nav Start -->
-    <div class="header">
-      <div class="container">
-        <div class="logo pull-left">
-          <h1><a href="index.html">MyFolio</a></h1>
-        </div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">CSS</h2>
 
-        <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li><a href="#top-header">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#services">Projects</a></li>
-            <li><a href="#contact">Contact me</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-    <!-- Nav End -->
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-    <!-- About Me Start-->
-    <div class="about" id="about">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 col-lg-4">
-            <img class="img-fluid" src="img/about-us.jpg" />
-          </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-          <div class="col-md-6 col-lg-8">
-            <header class="section-header">
-              <h2>About Me</h2>
-            </header>
-            <h3><strong>Name:</strong> Kornel Dudeck</h3>
-            <h3><strong>Gender:</strong> Male</h3>
-            <h3><strong>Age:</strong> 25</h3>
-            <h3><strong>Lives In:</strong> Poland</h3>
-            <h4><strong>Profession:</strong> Web Developer</h4>
-            <p>
-              <b>
-                I build exceptional and accessible digital experiences for the
-                web.</b
-              >
-            </p>
-            <p>
-              My main focus these days is building privite products and leading
-              projects for our clients. In my free time I've also released an
-              online video course that covers everything you need to know to
-              build a web app with the Spotify API.
-            </p>
-            <p>
-              When I’m not at the computer, I’m usually rock climbing, hanging
-              out with my colleagues and two dogs or play table tennis. I like
-              playing table tennis and at my university and previous company,
-              the table tennis ranking was first.
-            </p>
-          </div>
-        </div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">HTML</h2>
 
-        <div class="row">
-          <div class="col-md-6">
-            <div class="skills">
-              <h3>Front End Skills</h3>
-              <div class="skill-name">
-                <p>HTML</p>
-                <p>85%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='98'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-              <div class="skill-name">
-                <p>CSS</p>
-                <p>75%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-              <div class="skill-name">
-                <p>JavaScript</p>
-                <p>97%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="97"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Tailwind CSS</h2>
 
-              <div class="skill-name">
-                <p>React</p>
-                <p>95%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="95"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='68'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">68<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-              <div class="skill-name">
-                <p>Vue</p>
-                <p>78%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="78"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-              <div class="skill-name">
-                <p>Next</p>
-                <p>88%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="88"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">JavaScript</h2>
 
-              <div class="skill-name">
-                <p>Electron</p>
-                <p>83%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="83"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="skills">
-              <h3>Back End Skills</h3>
-              <div class="skill-name">
-                <p>PHP</p>
-                <p>76%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="76"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='92'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-              <div class="skill-name">
-                <p>Express</p>
-                <p>93%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="93"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-              <div class="skill-name">
-                <p>Laravel</p>
-                <p>85%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="85"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">TypeScript</h2>
 
-              <div class="skill-name">
-                <p>MySQL</p>
-                <p>92%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="92"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='83'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-              <div class="skill-name">
-                <p>PostgreSQL</p>
-                <p>90%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="90"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-              <div class="skill-name">
-                <p>MongoDB</p>
-                <p>67%</p>
-              </div>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  role="progressbar"
-                  aria-valuenow="67"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- About Me End-->
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">PHP</h2>
 
-    <!-- Job Experience Start -->
-    <div class="experience" id="experience">
-      <div class="container">
-        <header class="section-header">
-          <h3>Experience</h3>
-          <p>
-            I am a full stack web developer with rich experience in my sphere.
-          </p>
-        </header>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2016 <span>to</span> 2020</p>
-              <h4 class="exp-company">University of Wroclaw</h4>
-              <h4 class="exp-designation">Back End Developer</h4>
-              <p class="exp-detail">
-                During this period, I went to the university.<br />
-                I joined the team that develped library management system for my
-                university. In this team, i was responsible for back-end and I
-                used express as the project's back-end.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2020</p>
-              <h4 class="exp-company">Working as intern</h4>
-              <h4 class="exp-designation">Front End Developer</h4>
-              <p class="exp-detail">
-                During this period, I was working as a front-end developer and I
-                develped website named FMS (Financial Management System). This
-                site was privite site. In this site, I was responsible for
-                front-end and I used React as the front-end. In this time, I
-                have deep understanding about SPA.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2021 <span>to</span> 2022</p>
-              <h4 class="exp-company">Working for SoftServe Wrocław</h4>
-              <h4 class="exp-designation">
-                Database Administrator && Front End Developer
-              </h4>
-              <p class="exp-detail">
-                In this company, I was working as a developer. So I participated
-                in developing BMS (Business Management System). This site was
-                privite site. In this site, I was responsible for front end and
-                I used Vue as it's front-end. And then I also participated in
-                maintenance of company site. In here, I was responsible for
-                database.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2023 <span>to</span> now</p>
-              <h4 class="exp-company">Working as a freelancer</h4>
-              <h4 class="exp-designation">Full Stack developer</h4>
-              <p class="exp-detail">
-                During this period, I developed and maintained the
-                 websites such as GDP and Docplanner Group. Also, I developed
-                 site named AFF. This site was private site. In here, I used
-                 React, Express and PostgreSQL. I satisfied my client with this
-                 project. Now I am trying to learn about AI.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Job Experience End -->
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-    <!-- My Education Start -->
-    <div class="experience education" id="experience">
-      <div class="container">
-        <header class="section-header">
-          <h3>Education</h3>
-          <p>w
-            I graduated form university of Wroclaw with bachelor's degree in
-            mathematics and computer science and have already known about
-            cutting-edge technology associated with web development
-          </p>
-        </header>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2016 <span>to</span> 2020</p>
-              <h4 class="exp-company">University of Wroclaw</h4>
-              <p class="exp-detail">
-                During college, I learned enough basic knowledge for software
-                development.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="exp-column">
-              <p class="exp-date">2020</p>
-              <h4 class="exp-designation">Worked as an intern</h4>
-              <p class="exp-detail">Deep understanding about web development</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Education End-->
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-    <!-- Services Start -->
-    <div class="services" id="services">
-      <div class="container">
-        <header class="section-header">
-          <h3>Projects</h3>
-          <p>I participated developing and mainternerce a lot of websites.</p>
-        </header>
-        <div class="row">
-          <div class="col-sm-6 col-md-6">
-            <a href="https://formularze.edgp.gazetaprawna.pl">
-              <div class="single-service">
-                <span></span>
-                <div class="service-icon"><i class="fa fa-laptop"></i></div>
-                <h4>
-                  <a href="https://https://formularze.edgp.gazetaprawna.pl"
-                    >Web Development</a
-                  >
-                </h4>
-                <p>
-                  I participated in the maintenance of this site named DPG With
-                  DGP, Using this site, visitor can download Prints, templates,
-                  declarations and forms more easily. In here I was responsible
-                  for Font End and I used Next.js for server side rendering.
-                </p>
-              </div>
-            </a>
-          </div>
-          <div class="col-sm-6 col-md-6">
-            <a href="https://www.docplanner.com">
-              <div class="single-service">
-                <span></span>
-                <div class="service-icon"><i class="fa fa-laptop"></i></div>
-                <h4>
-                  <a href="https://www.docplanner.com">Web Development</a>
-                </h4>
-                <p>
-                  I participated in the maintenance of this site named
-                  Docplanner Group. Using this site, visitor can download
-                  Prints, templates, declarations and forms more easily. I was
-                  responsible for Font End and I used Vue.
-                </p>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Services End -->
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
 
-    <!-- Counter Start -->
-    <div class="counters">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6">
-            <div class="counter">
-              <div class="counter-icon-box"><i class="fa fa-calendar"></i></div>
-              <div class="number animateNumber" data-toggle="counter-up">
-                <span>5</span>
-              </div>
-              <h4 class="font-weight">Years of Experience</h4>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="counter">
-              <div class="counter-icon-box"><i class="fa fa-check"></i></div>
-              <div class="number animateNumber" data-toggle="counter-up">
-                <span>14</span>
-              </div>
-              <h4 class="font-weight">Completed Projects</h4>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="counter">
-              <div class="counter-icon-box"><i class="fa fa-users"></i></div>
-              <div class="number animateNumber" data-toggle="counter-up">
-                <span>5</span>
-              </div>
-              <h4 class="font-weight">Total Clients</h4>
-            </div>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="counter">
-              <div class="counter-icon-box"><i class="fa fa-heart"></i></div>
-              <div class="number animateNumber" data-toggle="counter-up">
-                <span>5</span>
-              </div>
-              <h4 class="font-weight">Award Won</h4>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Counter End -->
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-    <!-- Contact Start -->
-    <div class="contact" id="contact">
-      <div class="container">
-        <div class="section-header">
-          <h3>Contact Me</h3>
-        </div>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="contact-info">
-              <p><i class="fa fa-user"></i>Kornel Dudek</p>
-              <p><i class="fa fa-tag"></i>Full Stack Web Developer</p>
-              <p>
-                <i class="fa fa-map-marker"></i>Jaworska 11/13 Budynek B, 53-605 Wrocław, Poland
-              </p>
-              <p>
-                <i class="fa fa-envelope"></i
-                ><a href="mailto:info@example.com">solomon21century.com</a>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Contact End -->
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">React</h2>
 
-    <!-- Footer Start -->
-    <div class="footer">
-      <div class="container">
-        <div class="copyright">
-          <p>&copy; Copyright Rights Reserved</p>
-        </div>
-      </div>
-    </div>
-    <!-- Footer end -->
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='98'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
 
-    <!-- Back to Top -->
-    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/typed/typed.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/stickyjs/sticky.js"></script>
-    <script src="lib/superfish/hoverIntent.js"></script>
-    <script src="lib/superfish/superfish.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/isotope/isotope.pkgd.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Laravel</h2>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-  </body>
-</html>
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='68'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">68<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Vue</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='92'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">WordPress</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='83'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Express</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Python</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">React</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='98'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">98<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">SQL</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='68'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">68<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Next</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='92'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">WordPress</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='83'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">PostgreSQL</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+				
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">SEO</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='92'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">92<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">Electron</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='83'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">83<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+				<div class="col-lg-4 mb-4">
+					<div class="bg-white rounded-lg shadow p-4">
+						<h2 class="h5 font-weight-bold text-center mb-4">MongoDB</h2>
+
+						<!-- Progress bar 1 -->
+						<div class="progress mx-auto" data-value='95'>
+							<span class="progress-left">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<span class="progress-right">
+								<span class="progress-bar border-primary"></span>
+							</span>
+							<div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+								<div class="h2 font-weight-bold">95<sup class="small">%</sup></div>
+							</div>
+						</div>
+						<!-- END -->
+
+						<!-- Demo info -->
+						<div class="row text-center mt-4">
+							<div class="col-6 border-right">
+								<div class="h4 font-weight-bold mb-0">28%</div><span class="small text-gray">Last week</span>
+							</div>
+							<div class="col-6">
+								<div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+							</div>
+						</div>
+						<!-- END -->
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section" id="services-section mg-0">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 heading-section text-center ftco-animate mb-5">
+					<span class="subheading">I am great at</span>
+					<h2 class="mb-4">I do awesome services for my clients</h2>
+					<p>I always satisfy my clients</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-6 col-lg-3">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-web-programming"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Web Development</h3>
+							<p>I am able to build font-end and back-end by using cutting-edge technologies</p>
+						</div>
+					</div> 
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-app-development"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Web Application</h3>
+							<p>I am able to develop web applications by using Electron</p>
+						</div>
+					</div> 
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-3d-design"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">Web Design</h3>
+							<p>I am beginer in web design.</p>
+						</div>
+					</div> 
+				</div>
+				<div class="col-md-6 col-lg-3">
+					<div class="media block-6 services d-block bg-white rounded-lg shadow ftco-animate">
+						<div class="icon shadow d-flex align-items-center justify-content-center"><span class="flaticon-zoom"></span></div>
+						<div class="media-body">
+							<h3 class="heading mb-3">SEO</h3>
+							<p>In SPA, I am able to develop project for SEO by using Next.</p>
+						</div>
+					</div> 
+				</div>
+			</div>
+
+		</div>
+	</section>
+<!-- 
+	<section class="ftco-hireme">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-md-8 col-lg-8 d-flex align-items-center">
+					<div class="w-100 py-4">
+						<h2>Have a project on your mind.</h2>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly.</p>
+						<p class="mb-0"><a href="#" class="btn btn-white py-3 px-4">Contact me</a></p>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 d-flex align-items-end">
+					<img src="images/author.png" class="img-fluid" alt="">
+				</div>
+			</div>
+		</div>
+	</section> -->
+
+	<section class="ftco-section ftco-project" id="projects-section">
+		<div class="container-fluid px-md-4">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section text-center ftco-animate">
+					<span class="subheading">Accomplishments</span>
+					<h2 class="mb-4">My Projects</h2>
+					<p>I developed a lot of websites</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-1.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="http://igrit.pl">Laravel + MYSQL</a></h3>
+							<span>Web development</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-2.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://formularze.edgp.gazetaprawna.pl">Next &amp; PostgreSQL</a></h3>
+							<span>Web development</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project img shadow ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/work-3.jpg);">
+						<div class="overlay"></div>
+						<div class="text text-center p-4">
+							<h3><a href="https://www.docplanner.com">Vue + MongoDB</a></h3>
+							<span>Web Development</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section testimony-section bg-primary">
+		<div class="container">
+			<div class="row justify-content-center pb-5">
+				<div class="col-md-12 heading-section heading-section-white text-center ftco-animate">
+					<span class="subheading">Testimonies</span>
+					<h2 class="mb-4">What client says about?</h2>
+					<p>I have good reputation.</p>
+				</div>
+			</div>
+			<div class="row ftco-animate">
+				<div class="col-md-12">
+					<div class="carousel-testimony owl-carousel">
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4 pl-5">You are very quick learner with grasping good ability. You always satisfy me and You play an important role in my business.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(images/person_4.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Trye Rela</p>
+											<span class="position">Sale Direct</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4 pl-5">You are very a people-person and organized person. It was a pleasure working with you. I was able to succeed because of you.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Coler Gelie</p>
+											<span class="position">Marketing Manager</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4 pl-5">You are a person who values credit more than money and are passionate about business..</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(images/person_3.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Roger Scott</p>
+											<span class="position">CEO</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4 pl-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Roger Scott</p>
+											<span class="position">Marketing Manager</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4">
+								<div class="text">
+									<span class="fa fa-quote-left"></span>
+									<p class="mb-4 pl-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+									<div class="d-flex align-items-center">
+										<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
+										<div class="pl-3">
+											<p class="name">Roger Scott</p>
+											<span class="position">Marketing Manager</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="ftco-section contact-section ftco-no-pb mb-3" id="contact-section">
+		<div class="container">
+			<div class="row justify-content-center pb-3">
+				<div class="col-md-7 heading-section text-center ftco-animate">
+					<span class="subheading">Contact us</span>
+					<h2 class="mb-4">Have a Project?</h2>
+					<p>I am confident to deliver success.</p>
+				</div>
+			</div>
+
+			<div class="row block-9">
+				<div class="col-md-8">
+
+					<img class="" src="./images//map.png" alt="">
+					
+				</div>
+
+				<div class="col-md-4 d-flex pl-md-5">
+					<div class="row">
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-map-marker"></span>
+							</div>
+							<div class="text">
+								<p><span>Address:</span> Jaworska 11/13 Budynek B, 53-605 Wrocław, Poland</p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-phone"></span>
+							</div>
+							<div class="text">
+								<p><span>Phone:</span> <a href="tel://1234567920">+48-41-044-85-73 </a></p>
+							</div>
+						</div>
+						<div class="dbox w-100 d-flex">
+							<div class="icon d-flex align-items-center justify-content-center">
+								<span class="fa fa-globe"></span>
+							</div>
+							<div class="text">
+								<p><span>skype</span> <a href="#">live:solomon21century</a></p>
+							</div>
+						</div>
+					</div>
+					<!-- <div id="map" class="map"></div> -->
+				</div>
+			</div>
+		</div>
+	</section>
+	
+
+	<footer class="ftco-footer ftco-section p-1">
+			<div class="row">
+				<div class="col-md-12 text-center ">
+					<p class="pb-0 pt-3"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This is my portfolio<i class="fa fa-heart" aria-hidden="true"></i> 
+						<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+					</div>
+			</div>
+		</footer>
+		
+		
+
+		<!-- loader -->
+		<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.waypoints.min.js"></script>
+		<script src="js/jquery.stellar.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.animateNumber.min.js"></script>
+		<script src="js/scrollax.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+		<script src="js/google-map.js"></script>
+		
+		<script src="js/main.js"></script>
+		
+	</body>
+	</html>
